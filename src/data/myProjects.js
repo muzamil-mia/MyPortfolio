@@ -1,5 +1,3 @@
-import { MdOutlineHomeWork } from "react-icons/md";
-
 export const myProjects = [
   {
     title: "Trade Spot",

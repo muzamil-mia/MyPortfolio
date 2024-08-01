@@ -7,7 +7,6 @@ import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 import { useInView } from 'react-intersection-observer';
 import 'animate.css';
-import { svgUser } from "../data/user";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";

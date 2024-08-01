@@ -14,9 +14,6 @@ import { work } from "../data/myProjects";
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
-import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
 import SkillsSection from "../components/projects/allProjects";
 import MyProjects from "../components/projects/MyProjects";
 import Work from "../components/projects/Work";
@@ -38,8 +35,8 @@ const Homepage = () => {
 	}, []);
 
 	const { ref, inView } = useInView({
-		triggerOnce: true, // Triggers animation only once
-		threshold: 0.1, // Trigger when 10% of the element is visible
+		triggerOnce: true, 
+		threshold: 0.1,
 	});
 
 	useEffect(() => {

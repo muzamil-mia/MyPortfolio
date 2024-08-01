@@ -1,5 +1,5 @@
 import { FaReact, FaJsSquare, FaCss3Alt, FaHtml5, FaJava } from 'react-icons/fa';
-import { SiTailwindcss, SiSpringboot, SiSpring, SiMysql, SiPostgresql, SiHibernate, SiDocker } from 'react-icons/si';
+import { SiTailwindcss, SiSpringboot, SiSpring, SiPostgresql, SiHibernate, SiDocker } from 'react-icons/si';
 import { SiOracle } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 
