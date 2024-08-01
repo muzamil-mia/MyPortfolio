@@ -5,9 +5,11 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
+import MyProjects from "../components/projects/MyProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
+import { myProjects } from "../data/myProjects";
 
 import "./styles/projects.css";
 
@@ -15,6 +17,23 @@ const Projects = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
+
+	useEffect(() => {
+    const fetchProfile = async () => {
+      try {
+        const response = await fetch(`https://api.github.com/users/muzamil-mia`);
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+        console.log(data);
+        localStorage.setItem('user', JSON.stringify(data));
+      } catch (error) {
+        console.error('Error fetching profile:', error);
+      }
+    };
+    fetchProfile();
+  }, []);
 
 	const currentSEO = SEO.find((item) => item.page === "projects");
 
@@ -57,7 +76,16 @@ const Projects = () => {
 						</div>
 
 						<div className="projects-list">
-							<AllProjects />
+						<div className="myprojects">
+										{myProjects.map((item, index) => {
+											return (
+												<MyProjects
+													project={item}
+													key={index}
+												/>
+											);
+										})}
+									</div>
 						</div>
 					</div>
 					<div className="page-footer">

@@ -1,18 +1,116 @@
-.all-projects-container {
+.all-skills-container {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: stretch;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	margin-left: -35px;
 	margin-right: -35px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+	margin-top: 40px; 
+	border-radius: 8px;
+	/* border: 2px solid green; */
 }
 
-.all-projects-project {
-	width: calc(100% / 3);
+.all-skills-container>.skills-title{
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-left: 30px;
+}
+
+.allskills {
 	box-sizing: border-box;
 	padding: 10px;
 	overflow: hidden;
+	/* border: 2px solid; */
+	width: 95%;
+	margin: auto;
+	
+	display: flex;
+}
+
+.custom-animation {
+  animation-duration: 2s; /* Customize the duration */
+  
+}
+
+.title1{
+	/* border: 2px solid; */
+	width: 30%;
+}
+
+.title2{
+	/* border: 2px solid; */
+
+	letter-spacing: 2px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 700;
+	color: darkorange;
+}
+
+
+.iconscard{
+	/* border: 2px solid blue; */
+	width: 100%;
+	display: flex;
+	gap: 20px;
+	justify-content: start;
+	flex-wrap: wrap;
+}
+
+.iconcard{
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+.icon {
+	text-align: center;
+	font-size: 2rem; /* Adjust icon size as needed */
+  color: #007bff; /* Adjust icon color as needed */
+  margin-bottom: 10px; /* Adjust spacing between icon and label */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow on the icon */
+   /* Optional: round the shadow to match the icon shape */
+	 border-radius: 5px;
+  padding: 10px;
+}
+.iconname{
+	
+	font-size: 1rem; /* Adjust font size as needed */
+  color: #666; /* Adjust label color as needed */
+  margin-top: 5px; /* Adjust spacing between icon and label */
+  
+  padding: 2px 5px; /* Optional: space for the shadow effect */
+  border-radius: 4px;
+}
+
+.iconcard:hover {
+  transform: translateY(-5px); /* Hover effect to lift the card */
+}
+
+/* Styles for the icons */
+.icon {
+  font-size: 1rem; /* Adjust icon size as needed */
+  color: #007bff; /* Adjust icon color as needed */
+  margin-bottom: 2px; /* Adjust spacing between icon and label */
+}
+
+/* Styles for the labels */
+.iconname {
+  font-size: 1rem; /* Adjust font size as needed */
+  color: #666; /* Adjust label color as needed */
+  margin-top: 1px; /* Adjust spacing between icon and label */
+}
+
+@media (max-width: 800px) {
+	.allskills{
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 600px) {

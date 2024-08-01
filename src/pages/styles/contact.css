@@ -17,6 +17,11 @@
 	width: 100% !important;
 }
 
+.custom-animation {
+  animation-duration: 2s; /* Customize the duration */
+  
+}
+
 .contact-container {
 	display: flex;
 	flex-direction: column;

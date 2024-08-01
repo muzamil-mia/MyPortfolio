@@ -1,3 +1,5 @@
+
+
 .about-logo-container {
 	display: flex;
 	justify-content: left;
@@ -11,6 +13,11 @@
 	border-radius: 50%;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 	top: 4vh;
+}
+
+.custom-animation {
+  animation-duration: 2s; /* Customize the duration */
+ 
 }
 
 .about-container {
@@ -27,20 +34,24 @@
 
 .about-right-side {
 	flex-basis: 900px;
+	/* border: 2px solid; */
 }
 
 .about-title {
 	width: 100% !important;
+	/* border: 2px solid green; */
 }
 
 .about-subtitle {
 	width: 80% !important;
+	/* border: 2px solid red; */
 }
 
 .about-left-side {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 300px;
+	/* border: 2px solid; */
 }
 
 .about-image-container {
@@ -59,6 +70,8 @@
 	display: block;
 	width: 100%;
 }
+
+
 
 .about-socials {
 	padding-top: 50px;
