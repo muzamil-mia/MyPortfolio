@@ -14,7 +14,7 @@ const MyProjects = ({ project, index }) => {
 			</div>
       <p className="para">{project.description}</p>
       <div className="tech">
-      <p>Tech Stack</p>
+      <span>Tech Stack</span>
       <div className="techstack">
       {project.techStack.map((item, index) => {
           return (

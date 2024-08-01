@@ -3,7 +3,7 @@
   justify-content: space-around;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
   border-radius: 8px;
-  /* margin-bottom: 14px; */
+  margin-bottom: 12px;
 }
 
 .heading1{
@@ -16,7 +16,7 @@
 }
 .heading1 p{
   margin-bottom: 5px;
-  padding-bottom: 10px;
+  padding: 0px 0px 10px 4px;
   font-weight: 700;
 }
 .git{
@@ -28,7 +28,7 @@
 .para{
   /* border: 2px solid; */
   margin-top: -10px;
-  padding-left: 4px;
+  padding: 4px 8px;
 }
 .techstack{
   /* border: 2px solid; */
@@ -40,8 +40,19 @@
     flex-wrap: wrap;
   }
 }
-.tech>p{
-  font-weight: 700;
+.tech>span{
+  font-weight: bold;
+    padding-left: 9px;
+    padding-bottom: 13px;
+    display: block;
+    font-size: 10px;
+}
+
+.tech{
+  margin-top: -6px;
+}
+
+.techstack{
   padding-left: 3px;
 }
 .techstack>span{
@@ -79,7 +90,7 @@
   margin-left: 12px;
 }
 .workel>.info>span{
-  font-size: 10px;
+  font-size: 12px;
 }
 .companyname{
   color: rgb(249, 127, 147);

@@ -410,6 +410,7 @@
 	.homepage-title {
 		flex-direction: column;
 	}
+	
 }
 
 @media (max-width : 920px) {
@@ -418,5 +419,8 @@
 	}
 	.projects-section{
 		width: 100%;
+	}
+	.homepage-projects-container .work-section{
+		margin-top: 30px;
 	}
 }
