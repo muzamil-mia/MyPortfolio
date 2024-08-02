@@ -1,10 +1,7 @@
 # Reactfolio V1.2 👩🏽‍🚀
 
-.
 
-<center>
-<!-- <img src="https://i.imgur.com/ZWPO61A.jpeg" alt="Reactfolio" /> -->
-</center>
+
 
 Live demo here: <a href="https://muzamilmia.netlify.app/" target="_blank">muzamil..dev</a>
 <br/>
@@ -17,8 +14,7 @@ Live demo here: <a href="https://muzamilmia.netlify.app/" target="_blank">muzami
 -   [Configurations](#-configurations)
 -   [Google Analytics](#-google-analytics)
 -   [Building the React App](#-building-the-react-app)
--   [FAQ](#-faq)
--   [Contribution](#-contribution)
+
 
 ## 📙 Features
 
@@ -26,7 +22,6 @@ Live demo here: <a href="https://muzamilmia.netlify.app/" target="_blank">muzami
     -   Home
     -   About
     -   Projects
-    -   Articles
     -   Contact
 -   📱 Fully Responsive
 -   🛠 Easy configurations
