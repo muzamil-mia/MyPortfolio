@@ -6,9 +6,9 @@
 <!-- <img src="https://i.imgur.com/ZWPO61A.jpeg" alt="Reactfolio" /> -->
 </center>
 
-Live demo here: <a href="https://reactfolio.tharindu.dev/" target="_blank">muzamil..dev</a>
+Live demo here: <a href="https://muzamilmia.netlify.app/" target="_blank">muzamil..dev</a>
 <br/>
-Readme here: <a href="https://tharindu.dev/portfolio/reactfolio/" target="_blank">tharindu.dev/portfolio/reactfolio/</a>
+
 
 -   [Features](#-features)
 -   [Getting started](#-getting-started)
